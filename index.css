@@ -279,9 +279,9 @@ header .fa-bars{
     right: 0;
     display: flex;
 }
-.products .box-container .box:hover .image .icons{
-    bottom: 0;
-}
+.products .box-container .box:hover .image .icons{ 
+    bottom: 0; 
+ }
 .products .box-container .box .image .icons a{
     height: 5rem;
     line-height: 5rem;
@@ -299,8 +299,31 @@ header .fa-bars{
 }
 .products .box-container .box .image .icons a:hover{
     background: #333;
-}
+} 
 
+ .products .box-container .box .content{
+    padding: 6rem;
+    text-align: center;
+}
+.products .box-container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+.products .box-container .box .content .price{
+    font-size: 2.5rem;
+    color: #333;
+    color: #e84393;
+    font-weight: bolder;
+    padding-top: 1rem;
+
+}
+.products .box-container .box .content .price span{
+    font-size: 1.5rem;
+    color: #999;
+    font-weight: lighter;
+    text-decoration: line-through;
+
+} 
 
 
 
