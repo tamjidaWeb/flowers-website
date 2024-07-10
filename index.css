@@ -325,7 +325,82 @@ header .fa-bars{
 
 } 
 
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.review .box-container .box{
+    flex: 1 1 25rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
 
+position: relative;}
+
+.review .box-container .box .fa-quote-right{
+    position: absolute;
+    bottom: 3rem;
+    right: 2rem;
+    color: #eee;
+    font-size: 6rem;
+}
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.review .box-container .box .stars i{
+    color: #e84393;
+    font-size: 2rem;
+}
+.review .box-container .box  p{
+    color: #999;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+
+}
+.review .box-container .box .user img{
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.review .box-container .box .user h3{
+    font-size: 1.5rem;
+    color: #999;
+
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1 1 40rem;
+    align-items: center;
+}
+.contact .row form{
+    flex: 1 1 20rem;
+    padding: 2rem 1rem;
+
+box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.1);
+border: .1rem solid rgba(0,0,0,0.1);
+background:#fff ;
+border-radius: .5rem;}
+.contact .row .image{
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+.contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0,0,0,0.1);
+    border-radius: .5rem;margin: .7rem 0;
+}
 
 
 
